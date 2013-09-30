@@ -53,15 +53,23 @@ table {
 
 /* END RESET */
 
+
 img {width:300px;
 	height:auto
-	float:200px;
+	float:left;
      }
+
 h1 {font-family:helvetica;
     font-size:30px;}
 
-article {font-family:helvetica;
+article {float:left;
+	font-size:10px;
+	width:300px;
+
+
+
           }
+
 
 
 
