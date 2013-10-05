@@ -73,42 +73,65 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-/* END RESET */
+.mainnav { font-weight:bold;
+		  display: inline;
+		  font-size: 28px;
+		  text-transform: uppercase;
+		  font-family: tienne, serif;}
 
-border-bottom-color: rgb(0, 0, 0);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0px;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(0, 0, 0);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(0, 0, 0);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(0, 0, 0);
-border-top-style: none;
-border-top-width: 0px;
-display: inline;
-font-family: Times;
-font-size: 16px;
-font-style: normal;
-font-variant: normal;
-font-weight: normal;
-height: 310px;
-line-height: 16px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-vertical-align: baseline;
-width: 475px;
+
+h1 {text-align: center; 
+	font-size: 120px;
+	color: black;
+	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;}	
+
+#vs {font-size: 60px;
+	 vertical-align: middle;
+	 color: #a4acb3;
+	 border-top: 3px gray solid;
+	 border-bottom: 3px gray solid;
+	 text-decoration: underline overline;
+	 font-family: 'Permanent Marker', cursive;} /*wish Niconne would work (font-family: Niconne,cursive;) */
+
+
+#topnav {text-align: center;}
+
+a {text-decoration: none;
+   color: black;}
+
+h2 {font-weight: bold; 
+	font-size: 24px;
+	font-family: tienne, serif;}
+
+#dogs {margin-left:26%; 
+	   width: 425px; 
+	   float: left;}
+
+#cats {margin-right:26%;
+	   width: 425px; 
+	   float: right;}
+
+p {line-height: 18px;
+   font-size: 16px;
+   font-family: serif;}
+
+hr {border: none;
+	height: 3.5px;
+	background-color: #191919;}
+
+.footlink {color:#b70000;}
+
+#footerlinks {margin-top: 475px; font-size: 12px;}
+
+#marth-link {margin-right: 26%; 
+			 float:right; }
+
+
+#wiki-link {margin-left: 26%; 
+			float: left; }
+
+/*#cvd-logo {margin: 0 auto;
+		   display:block;} */
 
 
