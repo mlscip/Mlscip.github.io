@@ -54,17 +54,31 @@ table {
 /* END RESET */
 
 
-img {width:300px;
-	height:auto
+img {width:50%;
+	height:50%;
 	float:left;
+	margin:20px;
      }
 
 h1 {font-family:helvetica;
-    font-size:30px;}
+    font-size:25px;
+    font-weight:bold;
+    margin:15px;
+    }
+
+h2 {font-family:helvetica;
+    font-size:15px;
+    font-color:gray;
+    margin:15px;
+    }
+
 
 article {float:left;
-	font-size:10px;
-	width:300px;
+	font-family:helvetica;
+	font-size:14px;
+	line-height:20px;
+	width:500px;
+	margin:40px;
 
 
 
