@@ -74,9 +74,9 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 header img{
-	padding: 20px 0px 20px 240px;
-	margin: 30px;
-	width: 500px;
+	padding:20px 0px 20px 20px;
+	margin:30px;
+	width:800px;
 }
 
 nav       {font-weight:bold;
@@ -118,19 +118,16 @@ a {text-decoration: none;
 h2 {font-weight: bold; 
 	font-size:24px;
 	font-family: tienne, serif;
-    margin-left:70px;}
+    margin-left:100px;}
 
-#dog {margin-left:50%; 
-	   width: 425px; 
-	   float: left;}
+body img { width:400px;
+	       padding-left:150px;
+	       }
 
-#cat {margin-right:26%;
-	   width: 425px; 
-	   float: right;}
 
 article {float:left;
-	    margin-left:100px;
-	    padding:10px;
+	    margin-left:140px;
+	    padding:30px;
 	    width: 400px;
         }
 
