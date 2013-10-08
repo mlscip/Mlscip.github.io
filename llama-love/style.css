@@ -64,13 +64,13 @@ img {width:50%;
 h1 {font-family:helvetica;
     font-size:25px;
     font-weight:bold;
-    margin:25px;
+    margin:10px;
     }
 
 h2 {font-family:helvetica;
     font-size:12px;
     font-weight:bold;
-    font-color:gray;
+    color:gray;
     margin:15px;
     }
 
