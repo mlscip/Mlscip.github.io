@@ -53,4 +53,41 @@ table {
 
 /* END RESET */
 
-h1 {color:red;}
+/* END RESET */
+body {font-family:baskerville;
+	
+}
+h1,h2,h3,h4{font-family:bebas neue;}
+
+
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+#header {
+	width: 600px;
+	height: 132px;
+	
+}
+
+#text-left {
+	float: left;
+	width: 200px;
+	height: auto;
+}
+#text-right {
+	float: right;
+	width: 500px;
+	height: auto;
+}
+
+#footer {
+	float:right;
+	width: 500px;
+	height: 500px;
+	padding:20px;
+	
+}
+ul{padding:8px;}
+
