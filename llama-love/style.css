@@ -54,39 +54,38 @@ table {
 /* END RESET */
 
 
-img {width:50%;
-	height:50%;
+h1 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1em;
+}
+h2 {
+	font-size:11px;
+	color:rgba(192,192,192,0.9);
+	line-height:1em;  
+}
+p {
+	margin:20px;
+	font-size:12px;
+	line-height:1em;
+}
+img {
 	float:left;
-	padding-right:5px;
-	margin:10px;
-     }
-
-h1 {font-family:helvetica;
-    font-size:25px;
-    font-weight:bold;
-    margin:10px;
-    }
-
-h2 {font-family:helvetica;
-    font-size:12px;
-    font-weight:bold;
-    color:gray;
-    margin:15px;
-    }
-
-
-article {float:left;
-	font-family:helvetica;
-	font-size:16px;
-	line-height:21px;
-	width:500px;
-	margin:50px;
-	padding-left:40px;
-    }
-
-
-
-          }
+	width:200px;
+	margin:15px;
+}
+article {
+	float:left;
+	font-family: Helvetica, sans-serif;
+	width:400px;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+    
+          
 
 
 
