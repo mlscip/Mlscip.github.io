@@ -51,14 +51,14 @@ html[xmlns] .clearfix {
 	background-color: rgba(0, 0, 0, 0.8);
 	margin: 0 10px 10px 0;
 
-	-moz-box-shadow: 3px 3px 4px #CCC;
-	-webkit-box-shadow: 3px 3px 4px #CCC;
+	box-shadow: 3px 3px 4px #CCC;
+	box-shadow: 3px 3px 4px #CCC;
 	box-shadow: 3px 3px 4px #CCC;
 	
 	float: left;
 	overflow: hidden;
 	
-	-webkit-transition: opacity .4s ease-in-out;
+	transition: opacity .4s ease-in-out;
 	transition: opacity .4s ease-in-out;
 	opacity: 1;	
 }
