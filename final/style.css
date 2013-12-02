@@ -1,3 +1,12 @@
+	clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
 .clearfix {
 	display: inline-block;
 }
@@ -11,12 +20,12 @@ html[xmlns] .clearfix {
 }
 
 .container {
-	margin: auto;
+	margin-left: 190px;
 }
 
 .sidebar {
-	height: 620px;
-	width: 340px;
+	height: 500px;
+	width: 180px;
 	margin: 0 10px 0 0;
 	float: left;
 	overflow: hidden;
@@ -25,6 +34,7 @@ html[xmlns] .clearfix {
 }
 
 .content {
+	background-color: #FFF;
 	width: 750px;
 	float: left;
 }
@@ -60,10 +70,10 @@ section article.span-first:hover {
 
 
 nav ul li a {
-	font-family: 'Josefin Sans', arial, serif;
+	font-family: 'Baskerville', arial, serif;
 	font-size: 15px;
 	line-height: 40px;
-	color: gray;
+	color: #404040;
 	text-decoration: none;
 }
 
@@ -74,30 +84,38 @@ nav ul li {
 }
 
 nav ul {
-	margin: 10px 10px 0 0;
+	margin: 0px 0px  0;
 }
 
 nav ul li a:hover {
-	color: babyblue;
+	color: #00b5b6;
 }
 
 nav ul li a.on {
-	color: gray;
+	color: #00b5b6;
 }
 
 
 section article.content {
 	float: left;
-	height: 600px;
+	height: 400px;
 	width: 740px;
 	
 }
 
-header.logo {
-	float: left;
-    height: 200px;
-	width: 740px;
+article.info-me
+    float: left;
+	
 
+header.logo {
+	float: left
+
+
+}
+
+header {
+	height: 200px;
+    margin-left:70px;
 }
 
 p {
@@ -106,6 +124,26 @@ p {
 	line-height: 14px;
 	width: 240px;
 	margin: 0 0 0 5px;
-	float: left;
+	float: left
 
 }
+
+div.break{
+	height:220px;
+	}
+	
+
+footer{
+float: left;
+
+
+
+}
+
+
+#copyright{
+	font-family:'Baskerville';
+	font-size:.73em;
+	margin:10px 0px 0px 0px;
+	color: #00b5b6;
+	}
