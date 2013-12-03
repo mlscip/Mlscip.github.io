@@ -20,13 +20,13 @@ html[xmlns] .clearfix {
 }
 
 .container {
-	margin-left: 190px;
+	
 }
 
 .sidebar {
-	height: 500px;
-	width: 180px;
-	margin: 0 10px 0 0;
+	
+	width: 20%;
+	margin: 0 10% 0 0;
 	float: left;
 	overflow: hidden;
 	border: none;
@@ -35,8 +35,12 @@ html[xmlns] .clearfix {
 
 .content {
 	background-color: #FFF;
-	width: 750px;
+	width: 70%;
 	float: left;
+}
+
+section img{
+	max-width: 100%;
 }
 
 .projects {
@@ -84,7 +88,7 @@ nav ul li {
 }
 
 nav ul {
-	margin: 0px 0px  0;
+	
 }
 
 nav ul li a:hover {
@@ -98,8 +102,7 @@ nav ul li a.on {
 
 section article.content {
 	float: left;
-	height: 400px;
-	width: 740px;
+	width: 70%;
 	
 }
 
@@ -139,6 +142,7 @@ float: left;
 
 
 }
+
 
 
 #copyright{
