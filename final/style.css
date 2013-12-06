@@ -83,7 +83,8 @@ nav ul li a {
 
 nav ul li {
 	list-style-type:none;
-	margin: 0px;
+	height: 1%;
+	margin-top: 10%;
 	text-align: right;
 }
 
@@ -102,7 +103,7 @@ nav ul li a.on {
 
 section article.content {
 	float: left;
-	width: 70%;
+	max-width:10%;
 	
 }
 
@@ -118,8 +119,8 @@ header.logo {
 }
 
 header {
-	height: 200px;
-    margin-left:70px;
+	height: 200%;
+    margin-left:6%;
 }
 
 p {
