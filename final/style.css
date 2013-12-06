@@ -26,7 +26,7 @@ html[xmlns] .clearfix {
 .sidebar {
 	
 	width: 20%;
-	margin: 0 10% 0 0;
+	margin: 0 2% 0 0;
 	float: left;
 	overflow: hidden;
 	border: none;
@@ -75,8 +75,8 @@ section article.span-first:hover {
 
 nav ul li a {
 	font-family: 'Baskerville', arial, serif;
-	font-size: 15px;
-	line-height: 40px;
+	font-size: 80%;
+	line-height: 50%;
 	color: #404040;
 	text-decoration: none;
 }
@@ -112,6 +112,7 @@ article.info-me
 
 header.logo {
 	float: left
+	width: 70%;
 
 
 }
