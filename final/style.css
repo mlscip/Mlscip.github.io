@@ -107,20 +107,24 @@ section article.content {
 	
 }
 
-article.info-me
-    float: left;
-	
+article.info-me {
+	margin-left: 30%
+}
+
+article.photo {
+	float: left;
+	width: 60%;
+	margin:1%;
+}
 
 header.logo {
 	float: left
-	width: 70%;
-
-
+	
 }
 
 header {
 	height: 200%;
-    margin-left:6%;
+    margin-left:10%;
 }
 
 p {
