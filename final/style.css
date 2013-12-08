@@ -35,7 +35,7 @@ html[xmlns] .clearfix {
 
 .content {
 	background-color: #FFF;
-	width: 70%;
+	width: 60%;
 	float: left;
 }
 
@@ -47,14 +47,15 @@ section img{
 	height: 200px;
 	width: 240px;
 	background-color: rgba(0, 0, 0, 0.8);
-	margin: 0 10px 10px 0;
+	margin: 0px 10px 10px 0px;
+
 
 	box-shadow: 3px 3px 4px #CCC;
 	box-shadow: 3px 3px 4px #CCC;
 	box-shadow: 3px 3px 4px #CCC;
 	
-	float: left;
-	overflow: hidden;
+	float:left;
+    overflow: hidden;
 	
 	transition: opacity .4s ease-in-out;
 	transition: opacity .4s ease-in-out;
@@ -83,8 +84,7 @@ nav ul li a {
 
 nav ul li {
 	list-style-type:none;
-	height: 1%;
-	margin-top: 10%;
+	margin: 4%;
 	text-align: right;
 }
 
@@ -108,6 +108,7 @@ section article.content {
 }
 
 article.info-me {
+	float:left;
 	margin-left: 30%
 }
 
@@ -123,8 +124,9 @@ header.logo {
 }
 
 header {
-	height: 200%;
-    margin-left:10%;
+	height: 100%;
+    margin-left: 7%;
+   
 }
 
 p {
@@ -154,6 +156,6 @@ float: left;
 #copyright{
 	font-family:'Baskerville';
 	font-size:.73em;
-	margin:10px 0px 0px 0px;
+	margin-left: 240%;
 	color: #00b5b6;
 	}
