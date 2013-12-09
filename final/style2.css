@@ -67,7 +67,7 @@ header {
 
 #logo {
 	position:relative;
-	left:370px;
+	left:360px;
 	top:35px;
 	display:inline-block;
 	margin:0 auto;
@@ -105,7 +105,7 @@ header {
 
 #menu ul a:active  {color:white;}
 #menu ul a:visited {color:black;}
-#menu ul a:hover  {color:rgb(183,220,225);}
+#menu ul a:hover  {color:rgb(80,196,203);}
 
 
 
@@ -227,7 +227,7 @@ h2  {
 
 .bodytext ul a:active  {color:white;}
 .bodytext ul a:visited {color:black;}
-.bodytext ul a:hover  {color:rgb(183,220,225);}
+.bodytext ul a:hover  {color:rgb(80,196,203);}
 
 
 
